@@ -47,10 +47,15 @@ gem 'faker', '~> 1.4.3'
 gem 'will_paginate', '~> 3.0.7'
 gem 'bootstrap-will_paginate', '~> 0.0.10'
 
+
+
+gem 'font-awesome-rails', '~> 4.3.0.0'
+
 group :production do
   gem 'pg', '~> 0.18.1'
   gem 'rails_12factor', '~> 0.0.3'
 end
+
 #gem 'rspec', '~> 3.2.0'
 #gem 'selenium-webdriver', '~> 2.45.0'
 #gem 'capybara', '~> 2.4.4'

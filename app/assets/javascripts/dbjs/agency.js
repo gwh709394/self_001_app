@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+//= require dbjs/classie
+//= require dbjs/cbpAnimatedHeader
+//= require dbjs/jqBootstrapValidation
+//= require dbjs/contact_me
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
