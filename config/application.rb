@@ -21,7 +21,7 @@ module Self001App
     # config.i18n.default_locale = :de
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
     config.assets.precompile += [/^[a-z0-9]\w+.(css|js)$/]
-    config.assets.compile = true
+    # config.assets.compile = true
     #config.assets.precompile += [/^[a-z0-9]\w+.(css|js)$/]
     #config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif,*.ttf,*.eot,*.svg,*.woff)
 
